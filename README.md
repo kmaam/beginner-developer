@@ -265,3 +265,142 @@ else if(selectop === 'divide') {
 
 
 Divide the first number by the second.
+
+
+
+
+
+##CSS
+🎨 First Part: body { ... }
+
+This is like saying how the whole page should look.
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: crimson;
+  color: white;
+  font-family: sans-serif;
+}
+
+🧒 Explanation:
+
+height: 100vh; → Make the page as tall as the screen. (vh = "view height")
+
+display: flex; → Put things in a line or arrange them nicely.
+
+justify-content: center; → Move things to the middle left to right.
+
+align-items: center; → Move things to the middle top to bottom.
+
+background: crimson; → Make the background red (crimson).
+
+color: white; → Make the text color white.
+
+font-family: sans-serif; → Use a simple, clean font.
+
+🧱 Next Part: .main { ... }
+
+This is for a part of the page called "main".
+
+.main {
+  padding: 5px 0;
+  text-align: center;
+}
+
+🧒 Explanation:
+
+padding: 5px 0; → Give space above and below the text.
+
+text-align: center; → Put the text in the middle (centered).
+
+🧺 Then: input { ... }
+
+This talks about input boxes (where you type).
+
+input {
+  display: flex;
+  flex-direction: column;
+}
+
+🧒 Explanation:
+
+display: flex; → Try to arrange inputs nicely.
+
+flex-direction: column; → Put them on top of each other like a stack.
+
+(⚠️ But this code is likely not needed here—it might not do anything unless input is a container. Normally, you use this for divs.)
+
+🧾 Next: .inputs input { ... }
+
+This means: “All input boxes inside something called inputs.”
+
+.inputs input {
+  border: none;
+  border-radius: 5px;
+  padding: 1rem 10rem;
+  outline: none;
+  margin-bottom: 10px;
+}
+
+🧒 Explanation:
+
+border: none; → No line around the box.
+
+border-radius: 5px; → Make the corners rounded.
+
+padding: 1rem 10rem; → Add space inside the box (1 top/bottom, 10 left/right).
+
+outline: none; → Don’t show the blue line when clicked.
+
+margin-bottom: 10px; → Add space under the box.
+
+🔽 Next: #selectOp { ... }
+
+This is for a dropdown menu (like choosing something).
+
+#selectOp {
+  margin-bottom: 10px;
+  padding: 10px;
+  outline: none;
+}
+
+🧒 Explanation:
+
+margin-bottom: 10px; → Space under it.
+
+padding: 10px; → Space inside it.
+
+outline: none; → No blue line when clicked.
+
+🔘 Last: #btn { ... }
+
+This is for a button.
+
+#btn {
+  border: none;
+  background: transparent;
+  color: white;
+  padding: 10px 20px;
+  border: 2px solid white;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+🧒 Explanation:
+
+border: none; → No normal border.
+
+background: transparent; → No background color. (See-through)
+
+color: white; → Text is white.
+
+padding: 10px 20px; → Space inside button (10 top/bottom, 20 left/right).
+
+border: 2px solid white; → Add a white border.
+
+margin-top: 10px; → Add space above.
+
+cursor: pointer; → When you move your mouse on it, it turns to a hand 🖱️👉.
