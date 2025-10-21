@@ -3,12 +3,13 @@
 
 
 
-Simple Calculator Code Explain
-Sure! Let's go step-by-step and explain this HTML code **bit by bit**, using **very simple English** — like explaining to a child who is new to websites or coding.
+## Simple Calculator Code Explain
+
+Sure! Let's go step-by-step and explain this HTML code **bit by bit**, using **very simple English** — 
 
 ---
 
-## 🌐 What is this?
+## 🌐 What is this?    
 
 This is a **simple calculator webpage**. It lets you:
 
